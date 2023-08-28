@@ -1,0 +1,153 @@
+
+.singlepage .single--main--con {
+    width:100%;
+    margin: 0rem auto;
+    height:30rem;
+    box-shadow: inset 20px 20px 4000px black;
+}
+.mini--con {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.mini--con--banner {
+    background-color: rgba(166, 255, 255, 0);
+    width:70%;
+    height:100%;
+    margin:0px auto;
+    position: relative;
+    top:1rem;
+    border-radius:20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img--cons img {
+    border-radius:10px;
+    border:2px solid rgb(255, 255, 255);
+    width:250px;
+}
+.head--con ,.main--con--side {
+    color: white;
+}
+.main--con--side {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right:6rem;
+
+
+}
+.main--con--side div{
+    margin-bottom:1.5rem;
+}
+
+.like--con{
+    display: flex;
+    
+    align-items: center;
+}
+.like--con img{
+    width:30px;
+}
+.mini--content {
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+}
+.mini--content p{
+    margin-right:10px;
+}
+
+
+.btn--booking button {
+    background-color: rgb(255, 117, 117);
+    width:200px;
+    height:50px;
+    color:white;
+    border-radius:10px;
+    border-style:none;
+    font-weight:800;
+}
+
+.lang {
+    display: flex;
+    flex-direction: row;
+}
+.lang p{
+    margin-right:1rem;
+    padding:5px;
+    text-align: center;
+    font-weight:600;
+    border-radius:5px;
+    background-color:white;
+    color: black;
+}
+
+.containers {
+    background-color: rgba(255, 252, 252, 0.285);
+    width:70%;
+    height:80vh;
+    margin: 10px auto;
+    border-radius:20px;
+    
+}
+.containers div , .image--con{
+    width:90%;
+    margin: 3rem auto;
+}
+.about--con {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.about--con h1 ,.image--con h1, .cast--list h1 , .crew--list h1{
+    font-size:22px;
+    color: rgb(254, 148, 148);
+    text-decoration: underline;
+    line-height:50px;
+}
+.cast--list .lists ul {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right:7%;
+
+}
+.cast--list .lists ul li{
+    list-style: none;
+    background-color: rgb(11, 11, 11);
+    padding:5px 10px;
+    border-radius:5px;
+    color: white;
+    cursor: pointer;
+    margin-right:20px;
+}
+
+.containers p{
+    font-size:15px;
+    font-weight:600;
+    line-height:5px;
+}
+.image--con .con--img{
+    width:80%;
+    margin:10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.con--img img {
+    width:50%;
+    height:400px;
+    
+}
+.image--con h1{
+    text-align: center;
+}
+.btn--booking button:hover {
+    box-shadow:inset 5px 5px 50px rgba(0, 0, 0, 0.237);
+    background-color:red;
+}
+

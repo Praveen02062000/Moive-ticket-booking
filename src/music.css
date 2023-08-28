@@ -1,0 +1,212 @@
+.nearbyevent--con{
+    background-color:rgb(255, 255, 255);
+    width:40%;
+    margin: 2rem auto;
+
+}
+.music--con{
+    display: flex;
+
+}
+.music--card {
+    padding:5px;
+    border:1px solid rgb(240, 240, 240);
+    width:20rem;
+    margin:10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:20px;
+}
+.music--card img {
+    width:250px;
+    border-radius:20px;
+}
+.music--card p{
+    width:100%;
+    font-size:11px;
+    position: relative;
+    top:10px;
+}
+.music--card button {
+    width:90%;
+    margin-top:20px;
+    background-color: pink;
+    border-style:none;
+    height:50px;
+    border-radius:10px;
+    font-weight:700;
+    
+}
+.music--card button:hover{
+    background-color:red;
+    transition:.5s;
+    color: white;
+}
+
+
+.music--head {
+    background-color: black;
+    width:100%;
+    height:30rem;
+    display: flex;
+    justify-content: center;
+}
+.music--head img {
+    width:55%;
+}
+
+.detail--music{
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:10rem;
+    padding:20px;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.detail--music h3 {
+    font-size:19px;
+    font-weight:700;
+    color: rgb(0, 0, 0);
+}
+.detail--music h6 {
+    font-weight:500;
+    color: red;
+    margin-right: 20px;
+}
+
+.small--detail {
+    display: flex;
+    justify-content: space-between;
+}
+.detail--music button {
+    width:200px;
+    height:50px;
+    background-color:rgb(252, 96, 122);
+    border-radius:10px;
+    border-style:none;
+    font-weight: 700;
+    color:white;
+}
+.cast--div {
+    width:50%;
+    margin:10px auto;
+    text-align: center;
+}
+.cast--div div {
+    margin-top:2rem;
+    margin-bottom:10rem;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.music img {
+    border-radius:50%;
+    width:80px;
+}
+.music h5 {
+    font-size:14px;
+}
+.final--music--con {
+    background-color: rgb(255, 255, 255);
+    width:50%;
+    margin: 10px auto;
+    
+    padding:10px;
+    display: flex;
+}
+.final--music--con .ticket--price {
+    width:60%;
+    background-color:rgb(255, 255, 255);
+    padding:10px;
+    
+}
+.final--music--con .total--con {
+    width:40%;
+    background-color:rgba(242, 242, 242, 0.44);
+    margin-left:1rem;
+    border-radius:20px;
+    height:28rem;
+    position: relative;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.total--con h6 {
+    font-size:14px;
+
+}
+.total--con h5 {
+    font-size:17px;
+}
+.total--con button {
+    position: absolute;
+    bottom:1rem;
+    border-radius:10px;
+    border-style: none;
+    background-color: rgb(249, 146, 163);
+    height:50px;
+    width:80%;
+    left:2.3rem;
+    font-size:17px;
+    font-weight:700;
+}
+.total--con ul li{
+    font-weight:600;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ticket--price {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border:1px solid rgb(218, 218, 218);
+    border-radius:20px;
+    
+}
+
+.ticket--price .con-1,.con-2,.con-3{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+}
+.ticket--price  .con-1-1 {
+    display: flex;
+}
+.ticket--price .btn--con {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width:30%;
+}
+.btn--con button {
+    width:40px;
+    border-radius:5px;
+    border-style: none;
+    height:40px;
+    background-color: pink;
+}
+.btn--con button:hover {
+    background-color: palevioletred;
+    transition:.7s;
+}
+.con-detail{
+    width:70%;
+}
+.con-detail h3 {
+    font-size:18px;
+}
+.con-detail p {
+    font-size:14px;
+    line-height:10px;
+}
+
+.con-1 ,.con-2 ,.con-3 {
+    margin: 2rem 0rem;
+}

@@ -1,0 +1,63 @@
+{
+    "events":[
+        {
+            "id":"01",
+            "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAxMiBBdWc%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00361122-nsbdyvppae-portrait.jpg",
+            "title":"MARAKKUMA NENJAM AR Rahman Live Concert in Chennai",
+            "catory":"Regional | All age groups | 4hrs",
+            "place":"Adityaram Palace : Chennai",
+            "price":{
+                "GeneralAccess":"500",
+                "SilverTickets":"1000",
+                "GoldTickets":"2000",
+                "DiamondTickets":"5000"
+
+            },
+            "banner":"https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-marakkuma-nenjam-0-2023-6-1-t-12-56-25.jpg",
+            "Musicians":[
+                {
+                    "id":"01",
+                    "name":"AR Rahman",
+                    "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Nenje_Ezhu_at_Chennai_%28cropped%29.jpg/220px-Nenje_Ezhu_at_Chennai_%28cropped%29.jpg"
+                }
+            ]
+        },
+        {
+            "id":"02",
+            "img":"https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:ote-U2F0LCAyOSBKdWwgb253YXJkcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-24:q-80/et00361068-mcsxqvgywx-portrait.jpg",
+            "title":"MADRAS ON MUSIC",
+            "catory":"MADRAS ON MUSIC",
+            "place":"Adityaram Palace : Chennai",
+            "price":{
+                "GeneralAccess":"500",
+                "SilverTickets":"1000",
+                "GoldTickets":"2000",
+                "DiamondTickets":"5000"
+
+            },
+            "banner":"https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-madras-on-music-0-2023-6-1-t-7-38-1.jpg",
+            "Musicians":[
+                {
+                    "id":"01",
+                    "name":"Yogi B",
+                    "img":"https://in.bmscdn.com/Artist/yogi-b-2023884-1669633003.jpg"
+                },
+                {
+                    "id":"02",
+                    "name":"Anthoy Dasan In Party",
+                    "img":"https://in.bmscdn.com/Artist/1062420.jpg"
+                },
+                {
+                    "id":"03",
+                    "name":"Mr.Pradeep kumar",
+                    "img":"https://in.bmscdn.com/Artist/1086910.jpg"
+                },
+                {
+                    "id":"04",
+                    "name":"Stephen Zenhariah",
+                    "img":"https://in.bmscdn.com/Artist/2023487.jpg"
+                }
+            ]
+        }
+    ]
+}

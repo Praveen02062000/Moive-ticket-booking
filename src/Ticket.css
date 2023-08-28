@@ -1,0 +1,189 @@
+.ticket--main {
+    width:97%;
+    background-color: rgba(0, 255, 255, 0);
+    margin: 0px auto;
+}
+
+.ticket--main .ticket--place {
+    background-color: rgba(49, 49, 49, 0.388);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    margin: 3rem auto;
+    border-radius:30px;
+
+}
+.screen {
+    position: relative;
+    top:2rem;
+    text-align: center;
+    font-size:12px;
+    color: gray;
+}
+
+.screen-screen {
+    background-color:rgb(56, 56, 56);
+    box-shadow: 1px 10px 10px rgb(255, 199, 78);
+    width:15rem;
+    height:5px;
+    border-radius:10px;
+}
+.seats--con {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:7rem;
+    width:40%;
+
+}
+
+.seats--con .left--seats div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:10px;
+}
+
+.seats--con .left--seats div p ,.seats--con .right--seats div p{
+    margin-right:10px;
+    font-size:10px;
+}
+.seats--con .right--seats div {
+    margin-bottom:10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.seats--con button {
+    margin-right:10px;
+    width:30px;
+    height:30px;
+    border-radius:5px;
+    font-size:10px;
+    border-style: none;
+    background-color:rgb(234, 234, 234);
+}
+.movie-detail {
+    width:40%;
+    display: flex;
+    justify-content:space-evenly;
+    margin:2rem auto;
+    padding:10px;
+    border:1px solid rgba(128, 128, 128, 0.294);
+    border-radius:10px;
+
+}
+.main-movie img {
+    width:150px;
+    border-radius:10px;
+    border:5px solid black;
+  
+}
+.detail {
+    color: white;
+    position: relative;
+    border-radius:10px;
+    background-color: black;
+    width:70%;
+    padding:20px;
+}
+.detail h2{
+    font-size:20px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.detail p {
+    font-size:13px;
+    font-weight:600;
+}
+.detail .tic-price h5{
+    font-size:16px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.detail .tic-price p {
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn--book {
+    width:100%;
+
+}
+.btn--book button:first-child{
+    width:100%;
+    height:40px;
+    background-color: rgb(255, 103, 103);
+    color: white;
+    border-radius:10px;
+    border-style: none;
+    font-weight:700;
+}
+
+.btn--book button:first-child:hover{
+    background-color: red;
+}
+.blackscreen {
+    background-color:black;
+    width:100%;
+    height:100vh;
+}
+
+.final-con {
+    padding:10px;
+    border:1px solid rgba(0, 0, 0, 0.131);
+    margin: 3rem auto;
+    width:80%;
+    display:  flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.movies--detail--con {
+    width:90%;
+}
+.img--movie--con {
+    display:flex;
+    justify-content: center;
+    width:20%;
+    background-color: rgba(0, 255, 255, 0);
+}
+.img--movie--con img {
+    width:150px;
+    border-radius:5px;
+}
+.btn--confrim {
+    margin: 20px auto;
+    background-color:rgb(83, 255, 83);
+    border-radius:5px;
+    height:50px;
+    width:200px;
+    border-style:none;
+
+}
+.btn--confrim:hover{
+    background-color: rgb(3, 156, 0);
+    color:white;
+}
+.btn--confrim:active {
+    box-shadow:inset 1px 1px 10px green;
+}
+.movie-ticket-detail {
+    width:30%;
+    position: relative;
+    right:40rem;
+}
+.qr--code{
+    width:20%;
+    position: relative;
+    right:0rem;
+}
+.finalticket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

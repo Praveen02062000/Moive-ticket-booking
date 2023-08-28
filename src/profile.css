@@ -1,0 +1,95 @@
+.side-con {
+    width:20%;
+    background-color:rgb(255, 255, 255);
+    height:87vh;
+    border-right:1px solid rgb(221, 221, 221);
+}
+.side-con .side-head {
+    width:100%;
+    height:7rem;
+    background-color: rgb(200, 200, 200);
+}
+.side-head {
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
+.img--conss {
+    display: flex;
+    align-items: center;
+    width:30%;
+}
+.side-head .img--conss img {
+    width:60px;
+}
+.profile-detail h4{
+    font-size:15px;
+    line-height:2px;
+}
+.setting {
+    margin:3rem 0rem;
+    padding:10px;
+}
+  
+.setting  p{
+    color:rgb(107, 107, 107);
+    margin-bottom:3rem;
+    font-size:16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:800;
+    margin-left:2rem;
+    cursor: pointer;
+
+} 
+.side-main {
+    background-color: rgb(255, 255, 255);
+    width:80%;
+}
+.profile {
+    display: flex;
+
+}
+
+.ticket--cart {
+    background-color:rgb(255, 255, 255);
+    width:100%;
+    height:87vh;
+}
+.cart--head {
+    background-color:rgb(0, 0, 0);
+    width:100%;
+    height:7rem;
+}
+
+.cart--img--con img{
+    width:100px;
+    border:2px solid white;
+}
+.cartItem {
+    width:80%;
+    color: white;
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem auto;
+    border-radius:20px;
+    padding:20px;
+    
+}
+.cart-movies-detail h5 {
+    font-size:14px;
+    display: inline-flex;
+}
+.cart-movies-detail {
+    display: flex;
+    align-items: center;
+    width:60%;
+    background-color: rgba(122, 255, 255, 0);
+    justify-content: space-between;
+}
+.tickets-details{
+    position: relative;
+    right:5%;
+}
